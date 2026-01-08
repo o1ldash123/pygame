@@ -108,7 +108,7 @@ while running:
           bulletY = PLAYERSTART_Y
           bullet_state = 'ready'
       elif  bullet_state == 'fire' :
-          fire_bullet(bulletX , bulletY)
+          fire_bullet(bulletX , bulletY)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
           bulletY -= bulletY_change
       player(playerX , playerY)
       show_score(textX , textY)
